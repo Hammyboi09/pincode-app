@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.enterpin {
+  position: absolute;
+  width: 1167px;
+  height: 41px;
+  left: 51px;
+  top: 33px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+
+  color: #000000;
+}
+
+.input {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1108px;
+  height: 85px;
+  left: 41px;
+  padding: 10px;
+  top: 100px;
+  font-size: 30px;
+  border: 3px solid #000000;
+  border-radius: 10px;
+}
+
+input::placeholder {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  position: absolute;
+  width: 303px;
+  height: 67px;
+  left: 41px;
+  top: 211px;
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+  background: #000000;
+  border-radius: 10px;
+}
+
+.loading {
+  position: absolute;
+  left: 41px;
+  top: 291px;
+  font-size: 20px;
+  font-weight: 700;
+  color: red;
+}
+
+.pincode {
+  position: absolute;
+  width: 1167px;
+  height: 41px;
+  left: 65px;
+  top: 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+
+  color: #000000;
+}
+
+.message {
+  position: absolute;
+  width: 1167px;
+  height: 41px;
+  left: 65px;
+  top: 100px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+
+  color: #000000;
+}
+
+.searchfilter {
+  box-sizing: border-box;
+  position: relative;
+  width: 1108px;
+  height: 85px;
+  left: 41px;
+  top: 10px;
+  padding: 10px;
+  font-size: 30px;
+  border: 3px solid #000000;
+  border-radius: 10px;
+  margin: 180px 20px;
+}
+
+.results-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.post-office-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 400px;
+  margin: 10px;
+  height: 350px;
+  left: 10px;
+  top: -90px;
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 10px;
+}
+
+.post-office-name {
+  width: 352.87px;
+  margin: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 41px;
+  color: #000000;
+}
+
+.post-office-branch-type {
+  width: 352.99px;
+  margin: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 41px;
+  color: #000000;
+}
+
+.post-office-status {
+  width: 336.63px;
+  margin: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 41px;
+  color: #000000;
+}
+
+.post-office-district {
+  width: 349.7px;
+  margin: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 41px;
+  color: #000000;
+}
+
+.post-office-division {
+  width: 400px;
+  margin: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 41px;
+  color: #000000;
+}
+/* results-container */
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+  .results-container {
+    width: 250%;
+  }
+}
